@@ -1,0 +1,10 @@
+execution_duration_ms: 54
+request_preview: '{"inputs": {"topic": "Prepare for Bank exam in India"}}'
+request_time: '2025-11-16T15:14:57.835Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-fff58ab69c34758ac9bf09de19a9d8d2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,22 @@
+execution_duration_ms: 41773
+request_preview: '{"inputs": {"topic": "bank exams in india for preparation"}}'
+request_time: '2025-11-16T14:13:54.885Z'
+response_preview: '{"raw": "Bank Exams 2023: List of Upcoming Banking Sector Exams,
+  Eligibility and More\nWritten by Arup Das | Updated - Nov 21, 2023 12:36 pm IST\nDownload
+  Bank Exam Details PDF\nExplore\nUpcoming Bank Exams\nSBI Bank Exams in India\nIBPS
+  Exams\nRBI Exams\nOther Banking Exams 2023\nBank Exams for Employees Working in
+  Banking & Financial Sector\nBank Exam Preparation\nFrequently Asked Questions on
+  Bank Exams\nRelated Links\nDid you find this article helpful?\nYesNo\n(0 votes,
+  average: 0.00 out of 5)\n\nLoading ...", "pydantic": null, "json_dict": null, "tasks_output":
+  [{"description": "Perform a comprehensive and accurate web search for the \"bank
+  exams in india for preparation\".  Identify trustworthy and high-quality sources
+  such as articles, blogs, PDFs, reports,  official websites, documentation, or multimedia
+  content.   Your objective is to gather the most relevant and up-to-date information
+  that helps the user  understand or solve their query.\n", "name": "web_searcher_task",
+  "e...'
+state: OK
+trace_id: tr-818662a2ef31305eeed3d09d9282c71a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

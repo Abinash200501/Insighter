@@ -1,0 +1,11 @@
+execution_duration_ms: 20666
+request_preview: '{"inputs": {"topic": "how to place in ML engineer job and what are
+  all the prerequisites needed."}}'
+request_time: '2025-11-16T15:43:27.781Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-c33976c02579db7bcd344f2a407d7b7b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

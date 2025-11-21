@@ -1,0 +1,76 @@
+query_classifier_task:
+  description: >
+    Analyze the user's query and output its category for workflow adaptation.
+  expected_output: >
+    { "query_category": "<category>" }
+  agent: query_classifier
+  outputs:
+    - name: query_category
+      type: string
+
+web_searcher_task:
+  description: >
+    Perform a comprehensive and accurate web search for the "{topic}".
+    Identify trustworthy and high-quality sources such as articles, blogs, PDFs, reports, official websites, or multimedia content.  
+    Your goal is to gather the most relevant and up-to-date information to help the user understand or solve their query.
+  expected_output: >
+    Conduct a thorough search for "{topic}" using multiple reliable sources.
+    Provide URLs, titles, snippets, and metadata for each source, along with material relevance.
+  agent: searcher
+  outputs:
+    - name: search_results
+      type: list
+      description: "List of URLs, titles, and brief descriptions"
+
+retriever_task:
+  description: >
+    Extract meaningful information from search results for query type "{topic}".
+    Organize content into logical sections, remove noise or irrelevant details, and create structured, readable material.
+    Only extract content from URLs that:
+      - Return status 200
+      - Are not login pages
+      - Are not 404/403 pages
+      - Are plain readable pages
+    Skip all others automatically.
+  expected_output: >
+    A clean, structured, and context-aware text extracted from the search results, ready for summarization.
+  agent: retriever
+  inputs:
+    - name: search_results
+      type: list
+  outputs:
+    - name: retrieved_content
+      type: string
+      description: "Extracted structured text ready for summarization"
+    - name: source_links
+      type: list
+      description: "Actual URLs, PDFs, articles, or other references"
+
+summarizer_task:
+  description: >
+    Adapt style and depth to the user's topic "{topic}".
+    Highlight key insights, remove redundancy, and make the output actionable.
+  expected_output: >
+    A polished summary including:
+      - Short overview
+      - Key insights
+      - Final conclusions
+      - Actionable steps or explanations (if applicable)
+  agent: summarizer
+  inputs:
+    - name: retrieved_content
+      type: string
+  outputs:
+    - name: summary
+      type: string
+      description: "Clear, concise notes and final summary"
+    - name: sources
+      type: list
+      description: "Links or references used in summary"
+
+save_as_md:
+  description: >
+    Convert the final summary into a well-formatted Markdown (.md) file.
+    Ensure headings, subheadings, lists, and spacing are properly applied for readability.
+  expected_output: >
+    A complete Markdown document containing the final summary with proper formatting

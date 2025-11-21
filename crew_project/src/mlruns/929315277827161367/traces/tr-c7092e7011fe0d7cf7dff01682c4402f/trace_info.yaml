@@ -1,0 +1,21 @@
+execution_duration_ms: 26048
+request_preview: '{"inputs": {"topic": "Prepare for Bank exam in India"}}'
+request_time: '2025-11-16T14:52:41.136Z'
+response_preview: '{"raw": "I am unable to complete your request as the context provided
+  is insufficient to create the type of summary you are requesting. The provided text
+  pertains to general website information such as \"About us\", \"Careers\", \"Teach
+  Online\", \"Media\", and \"Sitemap\" which does not contain the necessary details
+  to summarize how to prepare for a bank exam in India. To properly respond, I need
+  content that discusses relevant aspects of preparing for bank exams.", "pydantic":
+  null, "json_dict": null, "tasks_output": [{"description": "Perform a comprehensive
+  and accurate web search for the \"Prepare for Bank exam in India\".  Identify trustworthy
+  and high-quality sources such as articles, blogs, PDFs, reports, official websites,
+  or multimedia content.   Your goal is to gather the most relevant and up-to-date
+  information to help the user understand or solve their query.\n", "name": "web_searcher_task",
+  "expected_output": "Conduct a thorough search for \"Prepare for Bank exam in Ind...'
+state: OK
+trace_id: tr-c7092e7011fe0d7cf7dff01682c4402f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

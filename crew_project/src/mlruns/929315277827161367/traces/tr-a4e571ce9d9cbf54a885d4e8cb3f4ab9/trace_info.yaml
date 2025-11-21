@@ -1,0 +1,21 @@
+execution_duration_ms: 54852
+request_preview: '{"inputs": {"topic": "Prepare for Bank exam in India"}}'
+request_time: '2025-11-16T15:33:15.823Z'
+response_preview: '{"raw": "**Prepare for Bank Exams in India: A Comprehensive Guide**\n\n**Overview:**\n\nBank
+  exams in India are competitive and require a strategic approach. This guide provides
+  an overview of available resources to help you prepare effectively.\n\n**Key Insights:**\n\n1.  **Super
+  Plan Combos:** Consider \"Super Plan\" combos for comprehensive preparation across
+  multiple bank exams (IBPS, SBI, etc.). These offer a range of resources at a bundled
+  price. Examples include \"Super Plan for All Bank Exams\".\n2.  **Test Series:**
+  Utilize targeted test series to assess your knowledge and improve exam-taking skills.
+  Test series are available for specific exams like SBI Clerk Prelims, IBPS RRB PO/Clerk
+  Prelims, IBPS PO Prelims, and SBI PO Prelims.\n3.  **Specific Exam Preparation:**
+  Focus on test series designed for the specific bank exams you''re targeting (e.g.,
+  SBI PO, IBPS PO, IBPS RRB).\n4.  **Guidely Resources:** Explore Guidely''s website
+  for products, blogs, and downloads to aid in yo...'
+state: OK
+trace_id: tr-a4e571ce9d9cbf54a885d4e8cb3f4ab9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

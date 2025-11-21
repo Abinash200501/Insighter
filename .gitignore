@@ -1,0 +1,16 @@
+.env
+
+# === learning ===
+learning.txt
+
+# Python virtual environment
+myenv/
+venv/
+
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# MLflow tracking
+crew_project/src/mlruns/

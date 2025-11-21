@@ -1,0 +1,23 @@
+execution_duration_ms: 57494
+request_preview: '{"inputs": {"topic": "Bank exam in  India and how to prepare it
+  from scratch"}}'
+request_time: '2025-11-16T14:25:55.747Z'
+response_preview: '{"raw": "## Bank Exams in India: A Comprehensive Guide for Beginners\n\nThis
+  guide provides a roadmap for individuals starting their journey towards a career
+  in the banking sector in India. It covers essential aspects of bank exams and offers
+  a structured approach to preparation.\n\n**1. Understanding Bank Exams:**\n\n*   **Types
+  of Exams:** Familiarize yourself with the different bank exams conducted in India,
+  primarily by the Institute of Banking Personnel Selection (IBPS), State Bank of
+  India (SBI), and Reserve Bank of India (RBI). Common exams include:\n    *   IBPS
+  PO (Probationary Officer)\n    *   IBPS Clerk\n    *   IBPS RRB (Regional Rural
+  Banks)\n    *   SBI PO\n    *   SBI Clerk\n    *   RBI Assistant\n    *   RBI Grade
+  B\n*   **Exam Structure:** Understand the exam pattern, including the number of
+  sections, types of questions, marking scheme, and duration. Most bank exams have
+  a preliminary exam followed by a main exam. Some also include an interview.\n*   **Eligibility
+  ...'
+state: OK
+trace_id: tr-a46b548f6ba3793ad440c916f04d55d8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

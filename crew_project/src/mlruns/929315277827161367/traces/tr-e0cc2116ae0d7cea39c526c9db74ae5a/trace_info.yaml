@@ -1,0 +1,21 @@
+execution_duration_ms: 55941
+request_preview: '{"inputs": {"topic": "Prepare for Bank exam in India"}}'
+request_time: '2025-11-16T14:57:39.854Z'
+response_preview: '{"raw": "**Comprehensive Guide to Preparing for Bank Exams in India**\n\n**Overview:**\n\nBank
+  exams in India are highly competitive and are conducted for various positions such
+  as Probationary Officer (PO), Clerk, and Specialist Officer (SO) in Public Sector
+  Banks. Key organizations conducting these exams include the State Bank of India
+  (SBI), the Institute of Banking Personnel Selection (IBPS), and the Reserve Bank
+  of India (RBI). This guide provides a structured approach to help aspirants prepare
+  effectively for these exams.\n\n**Key Insights:**\n\n1.  **Examining Bodies and
+  Exams:**\n    *   **SBI:** Conducts exams for PO and Clerk positions.\n    *   **IBPS:**
+  Conducts exams for PO, Clerk, and RRB (Regional Rural Banks) positions.\n    *   **RBI:**
+  Conducts exams for Grade B Officers and Assistant positions.\n\n2.  **Syllabus Components:**\n    *   **Quantitative
+  Aptitude:** Focuses on mathematical skills and problem-solving.\n    *   **Reasoning
+  Ability:** Tests logical thinki...'
+state: OK
+trace_id: tr-e0cc2116ae0d7cea39c526c9db74ae5a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT

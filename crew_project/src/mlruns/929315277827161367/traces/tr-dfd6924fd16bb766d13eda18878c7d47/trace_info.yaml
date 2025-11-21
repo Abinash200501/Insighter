@@ -1,0 +1,21 @@
+execution_duration_ms: 31856
+request_preview: '{"inputs": {"topic": "proper study material for bank exams"}}'
+request_time: '2025-11-16T14:17:53.777Z'
+response_preview: '{"raw": "The requested content could not be accessed. Apologies
+  I am unable to fully perform the request.", "pydantic": null, "json_dict": null,
+  "tasks_output": [{"description": "Perform a comprehensive and accurate web search
+  for the \"proper study material for bank exams\".  Identify trustworthy and high-quality
+  sources such as articles, blogs, PDFs, reports,  official websites, documentation,
+  or multimedia content.   Your objective is to gather the most relevant and up-to-date
+  information that helps the user  understand or solve their query.\n", "name": "web_searcher_task",
+  "expected_output": "Conduct a thorough search for the topic \"proper study material
+  for bank exams\". Use multiple reliable sources (websites, articles, PDFs, youtube
+  videos) to find the most relevant and up-to-date information. Provide URLs and brief
+  metadata about each source and give the materials info.\n", "summary": "Perform
+  a comprehensive and accurate web search for the \"proper...", "raw": "```\n**Comp...'
+state: OK
+trace_id: tr-dfd6924fd16bb766d13eda18878c7d47
+trace_location:
+  mlflow_experiment:
+    experiment_id: '929315277827161367'
+  type: MLFLOW_EXPERIMENT
