@@ -23,7 +23,6 @@
 ```bash
 git clone https://github.com/<your-username>/insigther.git
 cd insigther
-```bash
 
 2. Create a virtual environment and activate it:
 
