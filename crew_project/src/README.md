@@ -20,27 +20,28 @@
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/<your-username>/insigther.git
 cd insigther
 
-2. Create a virtual environment and activate it:
+2. **Create a virtual environment and activate it:**
 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```bash
 
-3. Install required packages:
+3.Install required packages:
 ```bash
 pip install -r requirements.txt
 ```bash
 
-4. Create a .env file in the project root and add any API keys or environment variables required by CrewAI:
+4.Create a .env file in the project root and add any API keys or environment variables required by CrewAI:
 SERPERDEV_API_KEY=your_serperdev_api_key
 GEMINI_API_KEY=your_gemini_api_key
 
-## Usage
+---
+
+### Usage
 
 1. Run the Streamlit App
 streamlit run main.py
