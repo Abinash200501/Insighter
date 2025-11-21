@@ -26,8 +26,8 @@
 2. Create a virtual environment and activate it:
 
    - python -m venv venv
-   - source venv/bin/activate - for Linux
-   - venv\Scripts\activate  - for Windows
+   - source venv/bin/activate (Linux)
+   - venv\Scripts\activate  (Windows)
 
 
 3. Install required packages:
