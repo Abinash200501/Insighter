@@ -20,42 +20,38 @@
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/<your-username>/insigther.git
-cd insigther
+   - git clone https://github.com/Abinash200501/Insighter.git
+   - cd insigther
 
-Create a virtual environment:
+2. Create a virtual environment and activate it:
 
-python -m venv venv
+   - python -m venv venv
 
+    # Linux / Mac
+    source venv/bin/activate
 
-Activate the virtual environment:
-
-# Linux / Mac
-source venv/bin/activate
-
-# Windows
-venv\Scripts\activate
+    # Windows
+    venv\Scripts\activate
 
 
-Install required packages:
+3. Install required packages:
 
-pip install -r requirements.txt
-
-
-Create a .env file in the project root and add your API keys:
-
-SERPERDEV_API_KEY=your_serperdev_api_key
-GEMINI_API_KEY=your_gemini_api_key
-
-Usage
-
-Run the Streamlit App:
-
-streamlit run main.py
+    - pip install -r requirements.txt
 
 
-Enter your query in the input box. The app will:
+4. Create a .env file in the project root and add your API keys:
+
+    - SERPERDEV_API_KEY=your_serperdev_api_key
+    - GEMINI_API_KEY=your_gemini_api_key
+
+## **Usage**
+
+1. Run the Streamlit App:
+
+    streamlit run main.py
+
+
+2. Enter your query in the input box. The app will:
 
 - Classify the query
 - Search the web
